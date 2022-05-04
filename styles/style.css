@@ -1,20 +1,91 @@
-/* *, *::after,
-*::before{
+/* CSS Selectors */
+/* Type Selector */
+
+/* Universal Selector */
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* To make our websites same in every browser */
 
-body  {
-  background-color: #fff;
+html {
+  font-size: 16px;
 }
 
-h1 {
-  color:chartreuse;
-  margin: 2rem 2rem;
-  font-size: 1.7rem;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-h1 .p {
-  text-align: center;
+
+.img-car {
+  /* border,width,height */
+  border: 2px solid #1c2042;
+  width: 480px;
+  height: 100%;
+  padding: 16px;
+  margin: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,212,255,1);
+  cursor: pointer;
+}
+
+/* Pseudo Classes for a */
+a:link {
+  color: rgb(100, 65,152);
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color: blueviolet;
+}
+
+
+
+/* Grouping Selectors */
+
+/* h1, h2, h3, h4 {
+  font-size: 30px;
+  color: thistle;
 } */
+
+/* CSS Measurements */
+/* Relative and Absolute */
+/* Absolute - cm, in, mm, pc, pt, px */
+/* Relative - rem, em, % */
+/* % - used for dimensions */
+
+
+/* CSS colors */
+/* Color names -->Its not a better choice to write */
+/* RGB -  256*, 256*,256*/
+/* Hex code - #111111  */
+/* hsl - Hue saturation value */
+
+/* CSS backgrounds */
+
+/* CSS Fonts */
+
+/* font-family */
+/* font-size */
+/* font-weight */
+
+/* CSS text */
+/* color */
+/* direction */
+
+
+/* Box Model */
